@@ -23,3 +23,411 @@ nav{display:none}
 #menuBtn{display:block}
 h1{font-size:2.5rem}
 }
+/* =======================================================
+   MODULE 2.1B
+   JOURNEY SECTION
+======================================================= */
+
+.journey{
+
+    background:#ffffff;
+
+    color:#1B1B1B;
+
+    padding:120px 10%;
+
+}
+
+.section-header{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.section-tag{
+
+    color:#D4AF37;
+
+    font-size:.9rem;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    margin-bottom:25px;
+
+}
+
+.section-header h2{
+
+    font-size:3.3rem;
+
+    line-height:1.2;
+
+    margin-bottom:30px;
+
+    color:#081C3A;
+
+}
+
+.section-header h2 span{
+
+    display:block;
+
+    color:#D4AF37;
+
+}
+
+.section-intro{
+
+    font-size:1.2rem;
+
+    color:#666;
+
+    margin-bottom:40px;
+
+}
+
+.section-header blockquote{
+
+    font-size:2rem;
+
+    font-style:italic;
+
+    color:#081C3A;
+
+    margin:50px auto;
+
+    max-width:750px;
+
+    line-height:1.5;
+
+    border-left:5px solid #D4AF37;
+
+    padding-left:30px;
+
+}
+
+/* ====================================
+
+Timeline
+
+==================================== */
+
+.timeline{
+
+    position:relative;
+
+    max-width:900px;
+
+    margin:100px auto;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:28px;
+
+    top:0;
+
+    bottom:0;
+
+    width:4px;
+
+    background:#D4AF37;
+
+}
+
+.timeline-item{
+
+    position:relative;
+
+    display:flex;
+
+    margin-bottom:80px;
+
+    padding-left:90px;
+
+}
+
+.timeline-dot{
+
+    position:absolute;
+
+    left:14px;
+
+    width:30px;
+
+    height:30px;
+
+    border-radius:50%;
+
+    background:#081C3A;
+
+    border:5px solid #D4AF37;
+
+}
+
+.timeline-content{
+
+    background:#F8F9FA;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.timeline-content:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.12);
+
+}
+
+.timeline-year{
+
+    color:#D4AF37;
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.timeline-content h3{
+
+    color:#081C3A;
+
+    margin:15px 0;
+
+    font-size:2rem;
+
+}
+
+.timeline-content p{
+
+    line-height:1.9;
+
+    color:#555;
+
+}
+
+/* ====================================
+
+MISSION
+
+==================================== */
+
+#mission{
+
+    background:#081C3A;
+
+    color:white;
+
+    padding:150px 10%;
+
+    text-align:center;
+
+}
+
+#mission h2{
+
+    max-width:900px;
+
+    margin:auto;
+
+    font-size:3.2rem;
+
+    line-height:1.5;
+
+}
+
+/* ====================================
+
+PHILOSOPHY
+
+==================================== */
+
+#philosophy{
+
+    background:#F5F7FA;
+
+    padding:120px 10%;
+
+}
+
+.philosophy-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.philosophy-container blockquote{
+
+    font-size:2.2rem;
+
+    line-height:1.8;
+
+    color:#081C3A;
+
+    font-style:italic;
+
+    margin:50px 0;
+
+}
+
+.philosophy-container h4{
+
+    color:#D4AF37;
+
+    font-size:1.4rem;
+
+    letter-spacing:2px;
+
+}
+
+/* ====================================
+
+Animation Preparation
+
+==================================== */
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(60px);
+
+    transition:1s;
+
+}
+
+.reveal.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* ====================================
+
+Responsive
+
+==================================== */
+
+@media(max-width:992px){
+
+.section-header h2{
+
+font-size:2.6rem;
+
+}
+
+.timeline-item{
+
+padding-left:70px;
+
+}
+
+.timeline::before{
+
+left:18px;
+
+}
+
+.timeline-dot{
+
+left:4px;
+
+}
+
+#mission h2{
+
+font-size:2.4rem;
+
+}
+
+.philosophy-container blockquote{
+
+font-size:1.8rem;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.journey{
+
+padding:80px 8%;
+
+}
+
+.timeline-item{
+
+padding-left:60px;
+
+}
+
+.timeline-content{
+
+padding:25px;
+
+}
+
+.section-header h2{
+
+font-size:2rem;
+
+}
+
+.section-header blockquote{
+
+font-size:1.5rem;
+
+padding-left:20px;
+
+}
+
+#mission{
+
+padding:100px 8%;
+
+}
+
+#mission h2{
+
+font-size:1.8rem;
+
+}
+
+.philosophy-container blockquote{
+
+font-size:1.4rem;
+
+}
+
+}
