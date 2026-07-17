@@ -1,1 +1,48 @@
-:root{--color-primary:#081C3A;--color-accent:#D4AF37;--color-white:#fff;}
+
+/* ======================================================
+   TYPOGRAPHY
+====================================================== */
+
+
+
+:root{
+
+    /* Brand Colors */
+
+    --navy:#081C3A;
+    --navy-light:#10325F;
+
+    --gold:#D4AF37;
+    --gold-light:#E6C75C;
+
+    --white:#FFFFFF;
+
+    --surface:#F8F9FA;
+    --surface-alt:#F3F5F7;
+
+    --text:#1B1B1B;
+    --text-light:#6B7280;
+
+    --border:#E5E7EB;
+
+    /* Shadows */
+
+    --shadow-sm:0 6px 18px rgba(0,0,0,.08);
+    --shadow-md:0 18px 40px rgba(0,0,0,.10);
+    --shadow-lg:0 28px 70px rgba(0,0,0,.15);
+
+    /* Radius */
+
+    --radius-sm:10px;
+    --radius-md:18px;
+    --radius-lg:28px;
+
+    /* Container */
+
+    --container:1200px;
+
+    /* Transition */
+
+    --transition:.35s ease;
+
+}

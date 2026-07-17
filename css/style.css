@@ -3,52 +3,6 @@
    MODULE 2.1D-1
 ====================================================== */
 
-:root{
-
-    /* Brand Colors */
-
-    --navy:#081C3A;
-    --navy-light:#10325F;
-
-    --gold:#D4AF37;
-    --gold-light:#E6C75C;
-
-    --white:#FFFFFF;
-
-    --surface:#F8F9FA;
-    --surface-alt:#F3F5F7;
-
-    --text:#1B1B1B;
-    --text-light:#6B7280;
-
-    --border:#E5E7EB;
-
-    /* Shadows */
-
-    --shadow-sm:0 6px 18px rgba(0,0,0,.08);
-
-    --shadow-md:0 18px 40px rgba(0,0,0,.10);
-
-    --shadow-lg:0 28px 70px rgba(0,0,0,.15);
-
-    /* Radius */
-
-    --radius-sm:10px;
-    --radius-md:18px;
-    --radius-lg:28px;
-
-    /* Container */
-
-    --container:1200px;
-
-    /* Transition */
-
-    --transition:.35s ease;
-
-}
-/* ======================================================
-   TYPOGRAPHY
-====================================================== */
 
 html{
 
@@ -170,10 +124,6 @@ a:hover{
 }
 
 
-
-:root{
---navy:#081C3A;--gold:#D4AF37;--white:#fff;
-}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:Inter,sans-serif;background:linear-gradient(135deg,#081C3A,#102B54);color:var(--white)}
 .navbar{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:18px 8%;background:rgba(8,28,58,.75);backdrop-filter:blur(10px)}
@@ -580,69 +530,8 @@ Timeline
     box-shadow:var(--shadow-lg);
 
 }
-/* ======================================================
-   UTILITIES
-====================================================== */
 
-.text-center{
 
-    text-align:center;
-
-}
-
-.mt-1{
-
-    margin-top:1rem;
-
-}
-
-.mt-2{
-
-    margin-top:2rem;
-
-}
-
-.mt-3{
-
-    margin-top:3rem;
-
-}
-
-.mb-1{
-
-    margin-bottom:1rem;
-
-}
-
-.mb-2{
-
-    margin-bottom:2rem;
-
-}
-
-.mb-3{
-
-    margin-bottom:3rem;
-
-}
-
-.gold{
-
-    color:var(--gold);
-
-}
-
-.navy{
-
-    color:var(--navy);
-
-}
-
-.surface{
-
-    background:var(--surface);
-
-}
 
 .timeline-year{
 
@@ -970,22 +859,5 @@ font-size:1.4rem;
     margin:60px auto;
 
     border-radius:100px;
-
-}
-.fade-up{
-
-    opacity:0;
-
-    transform:translateY(40px);
-
-    transition:.8s ease;
-
-}
-
-.fade-up.show{
-
-    opacity:1;
-
-    transform:translateY(0);
 
 }
