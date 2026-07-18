@@ -103,6 +103,16 @@ padding:90px 0;
 }
 
 }
+
+@media(max-width:992px){
+
+.ventures-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
 /* ======================================================
    LINKS
 ====================================================== */
@@ -861,3 +871,199 @@ font-size:1.4rem;
     border-radius:100px;
 
 }
+/* ===================================================
+   VENTURES
+=================================================== */
+
+#ventures{
+
+    background:var(--surface);
+
+    padding:120px 0;
+
+}
+.section-header{
+
+    text-align:center;
+
+    max-width:800px;
+
+    margin:0 auto 70px;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    border-radius:50px;
+
+    background:rgba(212,175,55,.12);
+
+    color:var(--gold);
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+    margin-bottom:20px;
+
+}
+
+.section-header h2{
+
+    margin-bottom:22px;
+
+}
+
+.section-intro{
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+
+    color:var(--text-light);
+
+}
+.ventures-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+.venture-card{
+
+    background:var(--white);
+
+    border-radius:var(--radius-lg);
+
+    padding:40px;
+
+    box-shadow:var(--shadow-sm);
+
+    transition:var(--transition);
+
+    display:flex;
+
+    flex-direction:column;
+
+    height:100%;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.venture-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:linear-gradient(
+        90deg,
+        var(--gold),
+        var(--gold-light)
+    );
+
+}
+
+.venture-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.venture-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:rgba(8,28,58,.08);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:2rem;
+
+    margin-bottom:25px;
+
+}
+
+.venture-card h3{
+
+    margin-bottom:12px;
+
+}
+
+.venture-tagline{
+
+    color:var(--gold);
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.venture-card p{
+
+    color:var(--text-light);
+
+    line-height:1.9;
+
+}
+
+.venture-card h4{
+
+    margin-top:30px;
+
+    margin-bottom:18px;
+
+}
+.venture-card ul{
+
+    margin-bottom:35px;
+
+    padding-left:20px;
+
+}
+.venture-card li{
+
+    margin-bottom:12px;
+
+    color:var(--text-light);
+
+}
+.venture-actions{
+
+    margin-top:auto;
+
+}
+
+
