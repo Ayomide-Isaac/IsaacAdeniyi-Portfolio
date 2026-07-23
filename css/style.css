@@ -143,6 +143,45 @@ grid-template-columns:1fr;
 }
 
 }
+
+/* ==========================================
+   MOBILE FIXES
+========================================== */
+
+@media (max-width: 768px){
+
+    .hero-content{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .hero-image{
+        order:-1;
+    }
+
+    .ventures-grid{
+        grid-template-columns:1fr !important;
+    }
+
+    .skills-grid{
+        grid-template-columns:1fr !important;
+    }
+
+    .venture-card,
+    .skill-card{
+
+        width:100%;
+        padding:30px;
+
+    }
+
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
 /* ======================================================
    LINKS
 ====================================================== */
@@ -1236,7 +1275,7 @@ font-size:1.4rem;
 
     display:grid;
 
-    grid-template-columns:repeat(3,1fr);
+   grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 
     gap:35px;
 
@@ -1385,7 +1424,7 @@ font-size:1.4rem;
 
     display:grid;
 
-    grid-template-columns:repeat(3,1fr);
+   grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 
     gap:35px;
 
